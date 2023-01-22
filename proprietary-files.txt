@@ -836,14 +836,14 @@ vendor/bin/doeapp-memtester
 vendor/bin/doeapp-sat
 vendor/bin/dtc_vendor
 
-# DRM - from realme/RMX3193/RMX3193:12/SP1A.210812.016/R.202202111917:user/release-keys
-vendor/bin/hw/android.hardware.drm@1.4-service.widevine|8307cea32c20bdc6e7456a6060ebefcfe743b02c
-vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|992f63e9700da29099e0590858a6becaaadb2976
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
-vendor/lib/mediadrm/libwvdrmengine.so|0a8dae27c79871c2d163bee5e34278e5d02acb2f
-vendor/lib/libwvhidl.so|0cb77893b553777865f341a255f3f6b37619ae8a
-vendor/lib64/mediadrm/libwvdrmengine.so|2cc07cb4202d54b716b7ca2bf03012d6c6d18cf9
-vendor/lib64/libwvhidl.so|60bfaf3ccac077859955708eadf3d22ac52aadee
+# DRM - from vivo/PD2242/PD2242:13/TP1A.220624.014/compiler12022045:user/release-keys
+vendor/bin/hw/android.hardware.drm-service.widevine
+vendor/etc/init/android.hardware.drm-service.widevine.rc
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml
+vendor/lib/drmwrapper.so
+vendor/lib/libdrm.so
+vendor/lib64/drmwrapper.so
+vendor/lib64/libdrm.so
 
 # Engineering
 -lib/libaudio_param_parser-sys.so
